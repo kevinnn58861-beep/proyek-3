@@ -23,7 +23,7 @@ function initProyek() {
         const offsetY = (Math.random() - 0.5) * 45;
 
         flower.style.left = `calc(50% + ${(x * spread) + offsetX}px)`;
-        flower.style.top = `calc(88% + ${(y * spread) + offsetY}px)`;
+        flower.style.top = `calc(100% + ${(y * spread) + offsetY}px)`;
         flower.style.animationDelay = `${delay}s, ${delay + 2}s`;
         
         const colors = ['#ffeb3b', '#ffd700', '#fbc02d', '#ffee58', '#fff176'];
